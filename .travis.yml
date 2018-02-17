@@ -1,0 +1,19 @@
+language: ruby
+sudo: false
+git:
+  depth: false
+cache: bundler
+before_install:
+ - rm -f Gemfile.lock
+ - wget https://raw.githubusercontent.com/progit/progit2-pub/master/Gemfile
+ - wget https://raw.githubusercontent.com/progit/progit2-pub/master/Rakefile
+ - bundle install
+script: bundle exec rake book:build
+addons:
+  apt:
+    packages:
+      - epubcheck
+notifications:
+  email:
+    on_success: never
+    on_failure: always
