@@ -8,28 +8,28 @@
       "sections/about-version-control.asc": 100,
       "sections/basics.asc": 30,
       "sections/command-line.asc": 100,
-      "sections/first-time-setup.asc": 0,
+      "sections/first-time-setup.asc": 100,
       "sections/help.asc": 100,
       "sections/history.asc": 100,
-      "sections/installing.asc": 0
+      "sections/installing.asc": 100
     },
     "02-git-basics": {
-      "1-git-basics.asc": 0,
+      "1-git-basics.asc": 1,
       "sections/aliases.asc": 0,
       "sections/getting-a-repository.asc": 0,
-      "sections/recording-changes.asc": 0,
+      "sections/recording-changes.asc": 1,
       "sections/remotes.asc": 0,
       "sections/tagging.asc": 0,
-      "sections/undoing.asc": 0,
+      "sections/undoing.asc": 1,
       "sections/viewing-history.asc": 0
     },
     "03-git-branching": {
       "1-git-branching.asc": 0,
       "sections/basic-branching-and-merging.asc": 0,
       "sections/branch-management.asc": 0,
-      "sections/nutshell.asc": 0,
+      "sections/nutshell.asc": 1,
       "sections/rebasing.asc": 0,
-      "sections/remote-branches.asc": 0,
+      "sections/remote-branches.asc": 1,
       "sections/workflows.asc": 0
     },
     "04-git-server": {
@@ -48,13 +48,13 @@
       "1-distributed-git.asc": 0,
       "sections/contributing.asc": 0,
       "sections/distributed-workflows.asc": 0,
-      "sections/maintaining.asc": 0
+      "sections/maintaining.asc": 1
     },
     "06-github": {
       "1-github.asc": 0,
       "sections/1-setting-up-account.asc": 0,
       "sections/2-contributing.asc": 0,
-      "sections/3-maintaining.asc": 0,
+      "sections/3-maintaining.asc": 1,
       "sections/4-managing-organization.asc": 0,
       "sections/5-scripting.asc": 0
     },
@@ -68,19 +68,19 @@
       "sections/notes.asc": 0,
       "sections/replace.asc": 0,
       "sections/rerere.asc": 0,
-      "sections/reset.asc": 0,
+      "sections/reset.asc": 1,
       "sections/revision-selection.asc": 0,
       "sections/rewriting-history.asc": 0,
       "sections/searching.asc": 0,
       "sections/signing.asc": 0,
       "sections/stashing-cleaning.asc": 0,
-      "sections/submodules.asc": 0,
+      "sections/submodules.asc": 1,
       "sections/subtree-merges.asc": 0
     },
     "08-customizing-git": {
       "1-customizing-git.asc": 0,
       "sections/attributes.asc": 0,
-      "sections/config.asc": 0,
+      "sections/config.asc": 1,
       "sections/hooks.asc": 0,
       "sections/policy.asc": 0
     },
@@ -103,7 +103,7 @@
       "sections/objects.asc": 0,
       "sections/packfiles.asc": 0,
       "sections/plumbing-porcelain.asc": 0,
-      "sections/refs.asc": 0,
+      "sections/refs.asc": 1,
       "sections/refspec.asc": 0,
       "sections/transfer-protocols.asc": 0
     },
