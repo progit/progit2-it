@@ -11,3 +11,7 @@ progit.mobi
 
 # vim objects
 *.swp
+
+# ide
+.idea
+
