@@ -68,7 +68,7 @@ GEM
       multi_json (>= 1.0.0)
     rake (12.3.3)
     ruby-rc4 (0.1.5)
-    rubyzip (1.2.1)
+    rubyzip (2.3.2)
     safe_yaml (1.0.4)
     thread_safe (0.3.6)
     treetop (1.5.3)
